@@ -1,0 +1,29 @@
+{
+  "name": "npm4",
+  "version": "0.0.0",
+  "description": "npm v4 packaged as npm4 to be run alongside npm",
+  "keywords": [
+    "npm"
+  ],
+  "license": "MIT",
+  "author": "Andres Suarez <zertosh@gmail.com>",
+  "files": [
+    "cmd.js",
+    "index.js"
+  ],
+  "main": "index.js",
+  "bin": {
+    "npm4": "cmd.js"
+  },
+  "repository": "https://github.com/zertosh/npm4",
+  "scripts": {
+    "test": "tap test.js"
+  },
+  "dependencies": {
+    "npm": "^4.0.0"
+  },
+  "devDependencies": {
+    "semver": "^5.3.0",
+    "tap": "^7.1.2"
+  }
+}
